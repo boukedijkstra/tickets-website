@@ -186,19 +186,6 @@ app.post("/api/placeorder", function (request, response) {
     response.sendStatus(200);
 });
 
-app.get("/api/myorders", function (request, response) {
-    console.log("Api call received for /myorders");
-
-    response.sendStatus(200);
-});
-
-app.get("/api/admin/edit", function (request, response) {
-    console.log("Api call received for /admin/edit");
-
-    response.sendStatus(200);
-});
-
-
 /**
  * Make our webserver available on port 8000.
  * Visit localhost:8000 in any browser to see your site!
