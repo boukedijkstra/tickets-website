@@ -1,0 +1,191 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 30px 0;
+    margin: 0;
+    background-image: url("../img/action-blur-car-child-386009.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    --primary-color: #007936;
+    --accent-color: DarkSeaGreen;
+    --light-text-color: Black;
+}
+
+/* Describes the styling of the one and only element with id="mainheader", note the # in front of mainheader */
+#mainheader {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 51px;
+    font-size: 2rem;
+    line-height: 55px;
+    padding-left: 20px;
+    color: white;
+    align-items: bottom;
+    position: fixed;
+    top: 75px;
+    margin: 0 0 0 160px;
+    border-radius: 30px 0 0 0px;
+    opacity: 0.9;
+    border: 1px solid var(--accent-color);
+}
+
+/* Describe the a elements in the nav element */
+nav a, a-visited
+{
+    color: white;
+}
+
+nav a:hover
+{
+    color: black;
+}
+
+#logo-header {
+    position: fixed;
+    width: 100%;
+    height: 128px;
+    background-image: url("../img/action-blur-car-child-386009.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo-header img {
+    margin-left: 0px;
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid var(--accent-color);
+}
+
+main {
+    margin-left: 160px;
+    padding-top: 200px;
+}
+
+nav
+{
+    height: 2rem;
+    line-height: 2rem;
+    background-color: var(--accent-color);
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 127px;
+    border: 1px solid var(--primary-color);
+    margin-left: 161px;
+    border-radius: 0 0 0 20px;
+    padding-left: 20px;
+}
+
+/* Describes the styling of all elements with class="parkname", note the . in front of parkname */
+.parkname {
+    border-radius: 30px 30px 0 0;
+    padding: 0 0 0 40px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.parkdescription {
+    margin: 10px 0 0 25px;
+}
+
+/* Describes the styling of all <article> elements */
+article {
+    border-radius: 30px 30px 30px 30px;
+    line-height: 25px;
+    font-weight: bold;
+    width: 60%;
+    border: 1px solid var(--primary-color);
+    color: var(--light-text-color);
+    margin: 30px 0 0 0;
+    background: rgba(120, 175, 100, 0.5);
+}
+
+.order {
+    padding: 25px 0 0 25px;
+}
+
+.badge {
+    background-color: var(--primary-color);
+    padding: 0 5px 0 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: none;
+    color: white;
+    width: 25px;
+    border-radius: 25px;
+}
+
+.orderbutton {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    width: 40px;
+    height: 35px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 6px 8px;
+    margin: 5px 0 10px -4px;
+    transition-duration: 0.4s;
+}
+
+.orderbutton:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid var(--accent-color);
+ }
+
+ @media only screen and (max-device-width: 780px) {
+
+    #mainheader {
+        height: 50px;
+        font-size: 1.5rem;
+        top: 0px;
+        margin: 0 0 0 100px;
+        border: 1px solid var(--primary-color)
+    }
+
+    #logo-header {
+        background-image: none;
+        background-color: rgba(239, 228, 232);
+        height: 83px;
+    }
+
+    #logo-header img {
+        margin-left: 0px;
+        border: 1px solid var(--accent-color);
+        height: 82px;
+    }
+
+    nav {
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 0.8rem;
+        top: 50px;
+        margin-left: 100px;
+        padding-left: 20px;
+    }
+
+    article {
+        border-radius: 30px 30px 0px 0px;
+        font-size: 0.8rem;
+        line-height: 25px;
+        font-weight: bold;
+        width: 100%;
+        border: 1px solid var(--primary-color);
+        color: var(--light-text-color);
+        margin: 0 0 25px 0;
+        background: rgba(120, 175, 100, 0.5);
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 120px;
+    }
+
+    .parkname {
+        font-size: 1rem;
+    }
+}

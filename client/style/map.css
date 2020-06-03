@@ -1,0 +1,35 @@
+#discoverablemap {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+body {
+
+    height: calc(100vh - 200px);
+    width: 100%;
+    overflow: hidden;
+    background-size: auto;
+
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-device-width: 780px) {
+    body {
+    
+    height: calc(100vh - 120px);
+    width: 100%;
+    overflow: hidden;
+    background-size: auto;
+
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+}
