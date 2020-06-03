@@ -1,7 +1,7 @@
 # Tickets Website
 Project created to learn and practice front-end technologies. This project builds a prototype of an website to buy tickets for amusement parks. For now only worrying about client technologies and not worrying about databases, security, authorization, payment and other such things.
 
-* Please make sure to visit [LEARNING-GOALS.md](./LEARNING-GOALS.md) for a clear outline of the learning goals of this project.
+* Please make sure to visit [LEARNINGGOALS.md](./LEARNINGGOALS.md) for a clear outline of the learning goals of this project.
 
 ## Table of contents
 * [General info](#general-info)
