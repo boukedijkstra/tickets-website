@@ -61,6 +61,11 @@ main {
     padding-top: 200px;
 }
 
+#orderplaced {
+    font-weight: bold;
+    margin-left: 180px;
+}
+
 nav
 {
     height: 2rem;
@@ -136,6 +141,8 @@ article {
     color: white;
     border: 2px solid var(--accent-color);
  }
+
+ 
 
  @media only screen and (max-device-width: 780px) {
 
