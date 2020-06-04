@@ -1,2 +1,0 @@
-1. (Index.js) Move var myOrderButtons to inside function initiateOrderButtonsEventListener()
-2. get rid of global variables!
