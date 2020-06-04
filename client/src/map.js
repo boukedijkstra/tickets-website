@@ -35,7 +35,8 @@ async function printMarkersOnMap() {
 function mountAndAddMarkersToMap(attraction) {
     let attractionMarker = L.marker(attraction.location, {
         title: attraction.name
-    }).addTo(map);
+    }).addTo(map)
+    .bindPopup("<b>"+ attraction.name + "</b><br>" + attraction.description + "</br>");
 }
 
 
