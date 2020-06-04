@@ -9,6 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/main.css">
         <link rel="stylesheet" href="style/map.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+        <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
     </head>
 
     <body>
@@ -23,7 +26,7 @@
             </a>
             |
             <a id="map" href="map.html">
-                Discover
+                Discover Attractions
             </a>
             |
             <a id="shoppingbasket" href="shoppingbasket.html">
@@ -35,9 +38,10 @@
         <main>
 
             <div id="discoverablemap"></div>
+            <script src="src/map.js"></script>
 
         </main>
 
-        <script src="src/index.js"></script>
+
     </body>
 </html>
