@@ -6,13 +6,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
-
     --primary-color: #007936;
     --accent-color: DarkSeaGreen;
     --light-text-color: Black;
 }
 
-/* Describes the styling of the one and only element with id="mainheader", note the # in front of mainheader */
 #mainheader {
     background-color: var(--primary-color);
     width: 100%;
@@ -30,7 +28,6 @@ body {
     border: 1px solid var(--accent-color);
 }
 
-/* Describe the a elements in the nav element */
 nav a, a-visited
 {
     color: white;
@@ -48,12 +45,6 @@ nav a:hover
     background-image: url("../img/action-blur-car-child-386009.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#logo-header img {
-    margin-left: 0px;
-    border-radius: 0px 30px 30px 0px;
-    border: 1px solid var(--accent-color);
 }
 
 main {
@@ -81,7 +72,6 @@ nav
     padding-left: 20px;
 }
 
-/* Describes the styling of all elements with class="parkname", note the . in front of parkname */
 .parkname {
     border-radius: 30px 30px 0 0;
     padding: 0 0 0 40px;
@@ -95,7 +85,6 @@ nav
     margin: 10px 0 0 25px;
 }
 
-/* Describes the styling of all <article> elements */
 article {
     border-radius: 30px 30px 30px 30px;
     line-height: 25px;
