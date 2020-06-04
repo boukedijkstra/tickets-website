@@ -28,7 +28,7 @@ const attractions = [
         minimumNumberOfAdults: 2,
         minimumNumberOfKids: 1,
         discount: 15,
-        available: 1,
+        available: 5,
         location: { lon: 5.043689, lat: 51.649718, },
     },
 
