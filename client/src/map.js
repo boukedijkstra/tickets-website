@@ -39,8 +39,4 @@ function mountAndAddMarkersToMap(attraction) {
     .bindPopup("<b>"+ attraction.name + "</b><br>" + attraction.description + "</br>");
 }
 
-
-
-// Marker added for example sake. Lat en longs need to be picked up from api/attraction for each marker
-//var marker = L.marker([51.649718 ,5.043689], {title: "parkname"}).addTo(map).bindPopup("<b>ParkName</b><br>ParkDescription</br>");
 printMarkersOnMap();
